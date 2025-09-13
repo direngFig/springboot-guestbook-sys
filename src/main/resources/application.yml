@@ -8,11 +8,11 @@ spring:
       suffix: .html
 
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/guestbook?characterEncoding=utf8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://cd-cdb-cd51wfie.sql.tencentcdb.com:22111/guestbook?characterEncoding=utf8&serverTimezone=GMT%2B8
     driver-class-name: com.mysql.cj.jdbc.Driver
     #    guestbook
     username: root
-    password: 100130ojx
+    password: OuJiaXin031017
 
 mybatis:
   config-location: classpath:mybatis/mybatis-application.xml
