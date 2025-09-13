@@ -1,0 +1,21 @@
+server:
+  port: 3333
+
+spring:
+  mvc:
+    view:
+      prefix: /template/
+      suffix: .html
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/guestbook?characterEncoding=utf8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #    guestbook
+    username: root
+    password: 100130ojx
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-application.xml
+  mapper-locations: classpath:mybatis/mappers/*.xml
+  type-aliases-package: com.example.guestbook.domain
+
